@@ -1,0 +1,11 @@
+TARGETNAME=GetDriverInfo
+TARGETTYPE=DRIVER
+DRIVERTYPE=WDM
+TARGETPATH=obj
+USE_PDB=1
+
+SOURCES = init.c \
+	  deviceio.c\
+      info.c\
+      misc.c\
+      direct_info.c
